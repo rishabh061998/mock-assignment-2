@@ -7,7 +7,7 @@ fetch("https://dog.ceo/api/breed/hound/images").then((data)=>{
    let data1="";
    completedata.message.map((values)=>{
     data1+=` <div class="card">
-    <h1 class="title">title</h1>
+    <h1 class="title">Dogs</h1>
     <img src=${values} alt="img" class="images">
     <p>Description</p>
     <p class="category">Category</p>
