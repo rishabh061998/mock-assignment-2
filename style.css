@@ -24,6 +24,8 @@
     text-align: center;
     padding: 1.5em;
     margin-bottom: 2em;
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
 }
 
 .title{
