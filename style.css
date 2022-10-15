@@ -95,3 +95,42 @@ button:hover{
 .top{
     background-color: black;
 }
+
+
+.container{
+    width: 40px;
+    min-height: 40px;
+    padding:5%;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    box-shadow: black;
+ 
+}
+.search-bar input{
+   
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+   
+}
+
+::placeholder{
+    color:black
+}
